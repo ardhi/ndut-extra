@@ -29,6 +29,14 @@ module.exports = {
     phone: {
       type: String,
       length: 50
+    },
+    email: {
+      type: String,
+      length: 50
+    },
+    website: {
+      type: String,
+      length: 100
     }
   }
 }
