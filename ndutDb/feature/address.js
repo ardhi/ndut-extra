@@ -11,11 +11,12 @@ module.exports = {
     city: {
       type: String,
       length: 50,
-      required: true
+      index: true
     },
     zipCode: {
       type: String,
-      length: 10
+      length: 10,
+      index: true
     },
     state: {
       type: String,
@@ -24,11 +25,12 @@ module.exports = {
     country: {
       type: String,
       length: 2,
-      required: true
+      index: true
     },
     phone: {
       type: String,
-      length: 50
+      length: 50,
+      index: true
     },
     email: {
       type: String,

@@ -2,7 +2,8 @@ module.exports = {
   properties: {
     picName: {
       type: String,
-      length: 50
+      length: 50,
+      index: true
     },
     picRole: {
       type: String,
